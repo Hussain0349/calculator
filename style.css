@@ -1,0 +1,47 @@
+.outer {
+    background-color: black;
+    width: 230px;
+    height: 450px;
+    margin-top: 3%;
+    margin-left: 40%;
+    border-radius: 30px;
+    outline: 1px solid rgb(123, 52, 52);
+    text-align: center;
+    box-shadow: -1px 1px 20px 1px rgb(0, 0, 0);
+}
+.outer input {
+    outline: none;
+    border: none;
+    font-size: 40px;
+    color: white;
+    font-weight: 600;
+    font-family: monospace;
+    height: 30%;
+    width: 75%;
+    background-color: transparent;
+    padding: 20px 20px 20px 20px;
+}
+button {
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+   font-weight: 600;
+  font-size: 25px;
+    width: 45px;
+    height: 45px;
+    margin: 3px 0px 3px 0px;
+}
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.last-one {
+    flex-basis: 100px;
+}
+.common {
+    color: white;
+    background-color: orange;
+}
